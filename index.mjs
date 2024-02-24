@@ -258,7 +258,6 @@ app.post('/updatecar', async (req, res) => {
   }
 });
 
-
 app.post('/adddeal',async(req,res)=>{
   try {
     const {car_id,deal_info}=req.body;
