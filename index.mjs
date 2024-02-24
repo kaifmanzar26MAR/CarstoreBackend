@@ -300,6 +300,7 @@ app.post('/addsoldvehicle',async(req,res)=>{
   }
 })
 
+
 app.get('/alldeals',async(req,res)=>{
   try {
     console.log("getting all deals");

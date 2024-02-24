@@ -2,10 +2,11 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "proxy":"http://locahost/8000",
+  "main": "index.mjs",
+  "type":"module",
+  "proxy": "http://locahost/8000",
   "scripts": {
-    "start":"node index.js"
+    "start": "node index.mjs"
   },
   "author": "",
   "license": "ISC",
